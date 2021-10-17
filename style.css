@@ -107,8 +107,12 @@ p {
     text-align: center;
   }
 
-  img {
+  .img-home {
     display: none;
+  }
+
+  .img-about {
+    margin-bottom: 24px;
   }
 
   .name {
