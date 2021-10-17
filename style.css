@@ -68,7 +68,7 @@ p {
 }
 
 .name {
-  font-size: 60px;
+  font-size: 56px;
 }
 
 .about-paragraphs {
@@ -89,4 +89,39 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  h1,
+  h2,
+  h3,
+  p {
+    text-align: center;
+  }
+
+  img {
+    display: none;
+  }
+
+  .name {
+    font-size: 48px;
+  }
+
+  .launch-link {
+    display: block;
+    margin: 0 20px;
+    text-align: center;
+  }
+
+  #yogurt-button {
+    margin-bottom: 80px;
+  }
 }
