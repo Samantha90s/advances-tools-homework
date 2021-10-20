@@ -15,7 +15,7 @@ h3 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 56px;
 }
 
 h2 {
@@ -65,10 +65,6 @@ p {
   color: var(--primary-color);
   text-align: center;
   display: block;
-}
-
-.name {
-  font-size: 56px;
 }
 
 .about-paragraphs {
